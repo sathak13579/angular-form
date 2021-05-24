@@ -1,0 +1,165 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  background-color: #fde5e5;
+  margin-top: 50px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+label {
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+table {
+  width: 50%;
+  margin-left: 310px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #1b1044;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 10px 5px 10px 25px;
+}
+
+/* .full {
+  border-radius: 5px;
+  height: 290px;
+} */
+
+textarea {
+  width: 60%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-top: 10px;
+}
+/* .btn {
+  position: relative;
+  left: 173px;
+} */
+h1 {
+  text-align: center;
+}
+.mat-header-row {
+  background-color: bisque;
+}
+.mat-header-cell {
+  font-weight: bold;
+  font-size: 14px;
+}
+.mat-dialog-container {
+  width: 700px !important;
+  height: 620px !important;
+  overflow-x: hidden !important;
+  background-color: bisque;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: large;
+  font-weight: 400;
+}
+#o {
+  border-top: 3px solid black;
+}
+#l {
+  border-top: 2px solid black;
+}
+
+#sub {
+  margin-left: 135px;
+  float: left;
+}
+#mrk {
+  margin-left: 455px;
+}
+.marks {
+  margin-left: 135px;
+  font-size: 16px;
+  font-weight: 500;
+  float: left;
+}
+.sc {
+  margin-bottom: 14px;
+}
+.ma {
+  margin-bottom: 14px;
+}
+.en {
+  margin-bottom: 14px;
+}
+.mrkl {
+  margin-left: 475px;
+  font-size: 16px;
+  font-weight: 500;
+}
+#subl {
+  border-top: 2px solid black;
+  width: 90px;
+  position: relative;
+  right: 15px;
+}
+#totl {
+  border-top: 2px solid black;
+  width: 76px;
+  position: relative;
+  right: 75px;
+}
+.qq {
+  margin-left: 270px !important;
+  margin-top: 62px !important;
+}
+td.mat-cell.cdk-cell.cdk-column-science.mat-column-science {
+  left: 13px;
+  position: relative;
+}
+td.mat-cell.cdk-cell.cdk-column-math.mat-column-math {
+  position: relative;
+  left: 6px;
+}
+td.mat-cell.cdk-cell.cdk-column-english.mat-column-english {
+  position: relative;
+  left: 14px;
+}
+th.mat-header-cell:last-of-type,
+td.mat-cell:last-of-type,
+td.mat-footer-cell:last-of-type {
+  padding-right: 0px !important;
+}

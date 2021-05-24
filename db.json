@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "student_name": "faaz",
+      "gender": "Male",
+      "grade": "3rd",
+      "dob": "2019-02-06",
+      "science": 55,
+      "maths": 77,
+      "english": 66,
+      "description": "tt",
+      "id": 1
+    },
+    {
+      "student_name": "sathak",
+      "gender": "Female",
+      "grade": "9th",
+      "dob": "2021-05-13",
+      "science": 55,
+      "maths": 77,
+      "english": 66,
+      "description": "hello",
+      "id": 2
+    },
+    {
+      "student_name": "pinky",
+      "gender": "Female",
+      "grade": "10th",
+      "dob": "2021-05-04",
+      "science": 67,
+      "maths": 33,
+      "english": 45,
+      "description": "hello",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

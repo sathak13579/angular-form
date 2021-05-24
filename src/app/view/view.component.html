@@ -1,0 +1,38 @@
+
+<h1 mat-dialog-title style="
+    margin-bottom: 50px;
+">{{data.student_name}}</h1><div  mat-dialog-content>
+
+  <div class="details">
+    <div class="age">DOB: {{data.dob}}</div>
+    <div class="gender">Gender: {{data.gender}}</div>
+    <div class="grade">Grade: {{data.grade}}</div>
+  </div>
+
+<hr id='o'>
+<br>
+<br>
+<h2 id='sub'>Subject </h2>
+<h2 id ='mrk'>Marks</h2>
+<div class="marks">
+  <br>
+  <div class="sc">Science</div>
+    <div class="ma">Math</div>
+    <div class="en">English</div>
+    <hr id='subl'>
+    <div class="ttl">Total</div>
+  </div>
+<div class="mrkl">
+  <br>
+  <div class="sc">{{data.science}}</div>
+    <div class="ma">{{data.maths}}</div>
+    <div class="en">{{data.english}}</div>
+    <hr id ='totl'>
+    <div class="ttll" style='position: relative; right: 19px;'>{{data.science + data.maths + data.english}}/300</div>
+  </div>
+  <br>
+  <hr id='l'>
+ <button class='qq' (click)='aa()' mat-raised-button color='primary'>Back</button>
+
+
+</div>
